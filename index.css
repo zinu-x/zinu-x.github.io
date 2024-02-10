@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio-box1 {
+    background-color: #0000ff;
+    padding: 20px;
+    position: relative;
+    width: 600px;
+}
+
+.bio-box2 {
+    background-color: #ff0000;
+    text-align: left;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+}
+
+
+.bio-name {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 50px;
+}
+.bio-content{
+    padding: 10px;
+}
+
+
+
+

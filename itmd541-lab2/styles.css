@@ -1,7 +1,11 @@
 /* Flexbox Part 1 */
 
 #flex-section1 ul {
-
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 /* end Flexbox Part 1 */

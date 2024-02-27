@@ -41,11 +41,19 @@
 /* Flexbox Part 3 */
 
 #flex-section3 .box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
 
 }
 
 #flex-section3 .tags ul {
-
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
 /* end Flexbox Part 3 */

@@ -2,17 +2,24 @@ body {
     font-family: Arial, sans-serif;
     background-size: cover;
     background-position: center;
-    height: 100vh;
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center ;
+    flex-direction: column;
+}
+
+.myName {
+    font-size: 24px;
+    color: #555555;
 }
 
 .container {
     background-color: rgba(255, 255, 200, 0.8);
     background-image: url('bg.png');
     padding: 20px;
+    width: 500px;
+    height: 350px;
     border-radius: 10px;
     text-align: center;
 }

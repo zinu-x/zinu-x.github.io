@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 200, 0.8);
+    background-image: url('bg.png');
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input[type="number"],
+input[type="text"]{
+    padding: 8px;
+    margin: 5px;
+    width: 150px;
+}
+
+input[type="range"] {
+    padding: 8px;
+    margin: 5px;
+    width: 150px;
+    vertical-align: middle;
+}
+
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
